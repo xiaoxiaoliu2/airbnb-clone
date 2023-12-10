@@ -2,7 +2,7 @@
 import { AiOutlineMenu } from 'react-icons/ai';
 import Avatar from '../Avatar';
 import { useCallback, useState } from 'react';
-import MenuItem from './Menuitem';
+import MenuItem from './MenuItem';
 
 
 const UserMenu = () => {
@@ -41,6 +41,13 @@ const UserMenu = () => {
                 onClick={() => { }}
                 label='Sign up'
               />
+              {/* <div className="px-4 py-3 hover:bg-neutral-100 transition font-semibold">
+                Login
+              </div>
+              <div className="px-4 py-3 hover:bg-neutral-100 transition font-semibold">
+                Sign up
+              </div> */}
+
             </>
           </div>
         </div>
